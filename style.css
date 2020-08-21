@@ -15,10 +15,7 @@
     max-height: 97vh;
 }
 
-.yellow{
-    background: yellow;
-    width: 4%;
-    height: 4%;
+.search{
     left: 50%;
     bottom: 50%;
     z-index: 3;
