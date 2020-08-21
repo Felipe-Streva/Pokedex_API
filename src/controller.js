@@ -4,7 +4,7 @@ class PokeController{
 
         let nameRequest = new XMLHttpRequest();
             
-        nameRequest.open('GET', `https://pokeapi.co/api/v2/pokemon/${id.pokeName.value}`);
+        nameRequest.open('GET', `https://pokeapi.co/api/v2/pokemon/${id.pokeName.value.toLowerCase()}`);
 
         nameRequest.addEventListener('load', ()=>{
             
