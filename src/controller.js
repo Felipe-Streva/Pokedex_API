@@ -14,6 +14,7 @@ class PokeController{
             } else {
                 console.log('200')
                 let nameJSON = JSON.parse(nameRequest.responseText)
+                if(nameJSON.types == 0) nameJSON.types.push({type:{name: 'No type'}})
                 if(nameJSON.types[1] == undefined){
                     nameJSON.types.push(nameJSON.types[0])
                 }
@@ -33,6 +34,8 @@ class PokeController{
                     nameJSON.stats[4].base_stat,
                     )
                 console.log(nameModel.infos);
+
+                PokeViews.showInfos(nameModel.infos)
             }
         })
 

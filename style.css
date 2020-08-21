@@ -26,13 +26,13 @@
     
 }
 
-.pokeSprite{
+.poke-sprite{
     width: 23%;
     height: 25%;
     left: 13.4%;
     bottom: 38.92%;
-
-
+    position: absolute;
+    z-index: 3;
 }
 
 .normal {
@@ -53,21 +53,26 @@
 
 }
 
-.pokeName {
+.poke-name {
     width: 13.5%;
     height: 4%;
     left: 13.9%;
-    bottom: 16.92%;
+    bottom: 16.02%;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    font-size: 12px;
 
 }
 
-.pokeNumber {
+.poke-number {
     width: 13.5%;
     height: 4%;
     left: 13.9%;
     bottom: 11.5%;
-
-
+    position: absolute;
+    z-index: 3;
+    text-align: center;
 }
 
 
@@ -213,38 +218,66 @@
     opacity: 35%;
 }
 
-.pokeWeight {
+.poke-weight {
  
     width: 7.6%;
     height: 6.6%;
     left: 57.1%;
     bottom: 20.9%;
+    position: absolute;
+    z-index: 3;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
-.pokeHeight {
+.poke-height {
    
     width: 7.6%;
     height: 6.6%;
     left: 65%;
     bottom: 20.9%;
+    position: absolute;
+    z-index: 3;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
-.pokeType1 {
-    background-color: blanchedalmond;
+.poke-type1 {
+    background-color: #2b2b2b;
     width: 15%;
     height: 5.6%;
     left: 57.4%;
     bottom: 9.62%;
+    position: absolute;
+    z-index: 3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.pokeType2 {
-    background-color: blanchedalmond;
+.poke-type2 {
+    background-color: #2b2b2b;
     width: 15%;
     height: 5.6%;
     left: 77.98%;
     bottom: 9.62%;
+    position: absolute;
+    z-index: 3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .form{
@@ -274,9 +307,18 @@
     padding: 1% 3%;
 }
 
+.poke-photo{
+    width: 100%;
+    height: 100%;
+}
+
 body{
     background-image: url(assets/bg.png);
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.hidden{
+    display: none;
 }
