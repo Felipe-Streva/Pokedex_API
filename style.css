@@ -15,6 +15,7 @@
     max-height: 97vh;
 }
 
+
 .dex {
     width: 10.5%;
     height: 14%;
@@ -197,6 +198,7 @@
 }
 
 .pokedex {
+
     z-index: 3;
     position: absolute;
     opacity: 0%;

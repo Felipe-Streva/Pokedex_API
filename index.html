@@ -8,11 +8,17 @@
         <link rel="shortcut icon" type="image/x-icon" href="assets/favicon_poke.ico">
         <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
         <title> Pokédex </title>
+
+        <script defer src="/src/models.js"></script>
+        <script defer src="/src/view.js"></script>
+        <script defer src="/src/controller.js"></script>
+        <script defer src="/src/main.js"></script>
     </head>
 
     <body>
         <div class="poke">
             <img class="pokedex-img" src="./assets/poke_open.PNG">
+
 
             <div class="dex pokedex"></div>
 
@@ -49,6 +55,13 @@
 
             <div class="pokeType1 pokedex"></div>
             <div class="pokeType2 pokedex"></div>
+      
+      
+            <form action="" id="form">
+                <label for="#pokeName">Pokemon name</label>
+                <input type="text" id="pokeName" name="pokeName">
+                <button type="submit" class="search" id="search">Search</button>
+            </form>
 
         </div>
 
