@@ -244,6 +244,10 @@
     bottom: 9.62%;
 }
 
+.form{
+    position: absolute;
+}
+
 body{
     background-image: url(assets/bg.png);
     display: flex;
