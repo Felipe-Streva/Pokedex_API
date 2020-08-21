@@ -17,25 +17,25 @@
     </head>
 
     <body>
-        <div class="poke">
+        <div class="poke hidden" id="poke2">
             <img class="pokedex-img" src="./assets/poke_open.PNG">
 
 
-            <div class="dex pokedex"></div>
+            <div class="dex pokedex" id="dex2"></div>
 
-            <div class="pokeSprite pokedex"></div>
+            <div class="poke-sprite" id="pokeSprite"></div>
 
             <button class="normal pokedex" type=button></button>
-            <button class="shiny pokedex" type=button></button>
+            <button class="shiny pokedex" id="pokeShiny" type=button></button>
 
-            <div class="pokeName pokedex"></div>
-            <div class="pokeNumber pokedex"></div>
+            <div class="poke-name" id="name"></div>
+            <div class="poke-number" id="number"></div>
 
 
             <div class="display" id="display">
                 <form action="" id="form" class="form">
                     <label for="#pokeName" class="label-display">Pokemon Name or Number</label>
-                    <input type="text" class="input-display" id="pokeName" name="pokeName">
+                    <input type="text" class="input-display" id="pokeName" name="pokeName" autocomplete="off">
                     <button type="submit" class="submit pokedex" id="search"></button>
                 </form>
             </div>
@@ -54,24 +54,22 @@
             
 
             <button class="reset pokedex" id="reset" type=button></button>
-            <button class="back pokedex" type=button></button>
+            <button class="back pokedex" id="back" type="button" href="index.html"></button>
 
             
-            <div class="pokeWeight pokedex"></div>
-            <div class="pokeHeight pokedex"></div>
+            <div class="poke-weight" id="pokeWeight"></div>
+            <div class="poke-height" id="pokeHeight"></div>
 
-            <div class="pokeType1 pokedex"></div>
-            <div class="pokeType2 pokedex"></div>
+            <div class="poke-type1" id="pokeType1"></div>
+            <div class="poke-type2" id="pokeType2"></div>
       
-      
-            
-
         </div>
-
-
         
+        <div class="poke" id="poke1">
+            <img src="/assets/poke_close.PNG" class="pokedex-img ">
 
-        
+            <div class="dex pokedex" id="dex1"></div>
+        </div>
        
     </body>
 </html>
