@@ -15,11 +15,233 @@
     max-height: 97vh;
 }
 
-.search{
-    left: 50%;
-    bottom: 50%;
+
+.dex {
+    width: 10.5%;
+    height: 14%;
+    left: 5.6%;
+    bottom: 80%;
+    border-radius: 300%;
+    
+}
+
+.pokeSprite{
+    width: 23%;
+    height: 25%;
+    left: 13.4%;
+    bottom: 38.92%;
+
+
+}
+
+.normal {
+    width: 5.6%;
+    height: 2.1%;
+    left: 13.5%;
+    bottom: 25.8%;
+    border-radius: 15px;
+
+}
+
+.shiny {
+    width: 5.6%;
+    height: 2.1%;
+    left: 22.5%;
+    bottom: 25.8%;
+    border-radius: 15px;
+
+}
+
+.pokeName {
+    width: 13.5%;
+    height: 4%;
+    left: 13.9%;
+    bottom: 16.92%;
+
+}
+
+.pokeNumber {
+    width: 13.5%;
+    height: 4%;
+    left: 13.9%;
+    bottom: 11.5%;
+
+
+}
+
+
+.display {
+    width: 35%;
+    height: 11.6%;
+    left: 57.4%;
+    bottom: 57.62%;
+
+}
+
+.one {
+    width: 7%;
+    height: 9.3%;
+    left: 57.4%;
+    bottom: 43.3%;
+
+}
+
+.two {
+    width: 7%;
+    height: 9.3%;
+    left: 64.5%;
+    bottom: 43.3%;
+
+
+}
+
+.three {
+    width: 7%;
+    height: 9.3%;
+    left: 71.75%;
+    bottom: 43.3%;
+
+
+}
+
+.four {
+    width: 7%;
+    height: 9.3%;
+    left: 79%;
+    bottom: 43.3%;
+
+
+}
+
+.five {
+    width: 7%;
+    height: 9.3%;
+    left: 86.3%;
+    bottom: 43.3%;
+
+
+}
+
+.six {
+    width: 7%;
+    height: 9%;
+    left: 57.4%;
+    bottom: 34%;
+
+
+}
+
+.seven {
+    width: 7%;
+    height: 9%;
+    left: 64.5%;
+    bottom: 34%;
     z-index: 3;
     position: absolute;
+    opacity: 0%;
+
+}
+
+.eight {
+    width: 7%;
+    height: 9%;
+    left: 71.75%;
+    bottom: 34%;
+
+
+}
+
+.nine {
+    width: 7%;
+    height: 9%;
+    left: 79%;
+    bottom: 34%;
+
+
+}
+
+.zero {
+    width: 7%;
+    height: 9%;
+    left: 86.3%;
+    bottom: 34%;
+
+
+}
+
+.submit {
+    width: 5.5%;
+    height: 7%;
+    left: 86.3%;
+    bottom: 18%;
+    opacity: 35%;
+    border-radius: 300%;
+
+}
+
+.reset {
+    width: 5.4%;
+    height: 2.1%;
+    left: 87.6%;
+    bottom: 28.9%;
+    border-radius: 15px;
+
+}
+
+.back {
+    width: 5.4%;
+    height: 2.1%;
+    left: 80.6%;
+    bottom: 28.9%;
+    border-radius: 15px;
+
+}
+
+.pokedex {
+
+    z-index: 3;
+    position: absolute;
+    opacity: 0%;
+
+}
+.pokedex:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: 35%;
+}
+
+.pokeWeight {
+ 
+    width: 7.6%;
+    height: 6.6%;
+    left: 57.1%;
+    bottom: 20.9%;
+
+}
+
+.pokeHeight {
+   
+    width: 7.6%;
+    height: 6.6%;
+    left: 65%;
+    bottom: 20.9%;
+
+}
+
+.pokeType1 {
+    background-color: blanchedalmond;
+    width: 15%;
+    height: 5.6%;
+    left: 57.4%;
+    bottom: 9.62%;
+}
+
+.pokeType2 {
+    background-color: blanchedalmond;
+    width: 15%;
+    height: 5.6%;
+    left: 77.98%;
+    bottom: 9.62%;
 }
 
 body{
