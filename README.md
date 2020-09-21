@@ -6,10 +6,10 @@ Nela, pode-se acessar informações básicas de +700 pokémon, da primeira à oi
 
 Para utilizar a Pokedéx:
 ```bash
-1- Clone o repositório;
-2- Abra o arquivo index.html
-3- Abra a Pokédex
-4- Digite o numero do pokémon
+`1- Clone o repositório;
+2- Abra o arquivo index.html;
+3- Abra a Pokédex;
+4- Digite o numero do pokémon.`
 ```
 ## Contribuições
 Projeto iniciado como desafio de 1 dia por Felipe Streva e Tati Machado, ainda em versão beta. 
