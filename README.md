@@ -1,5 +1,5 @@
 # Pokedéx
-O projeto utiliza a [PokéAPI] (https://pokeapi.co/) para a criação de uma web-pokédex no navegador. 
+O projeto utiliza a [PokéAPI](https://pokeapi.co/) para a criação de uma web-pokédex no navegador. 
 Nela, pode-se acessar informações básicas de +700 pokémon, da primeira à oitava geração.
 
 ## Utilização
