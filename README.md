@@ -11,9 +11,11 @@ Para utilizar a Pokedéx:
 3- Abra a Pokédex;
 4- Digite o numero do pokémon.
 ```
-## Contribuições
+## Status do Projeto
 Projeto iniciado como desafio de 1 dia por Felipe Streva e Tati Machado, ainda em versão beta. 
-Sugestões e pull requests são bem-vindos.
+
+## Contribuições
+Sugestões e pull requests são bem-vindos. 
 
 ## Licença 
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
